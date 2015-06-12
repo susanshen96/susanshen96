@@ -288,13 +288,13 @@ table#extensionmenu td.text a:hover{
 
 #footer {
   position: relative;
-  bottom: -325px;
+  bottom: -350px;
   width: 100%;
   z-index: 0;
   margin-right: auto;
   margin-left: auto;
   height: 200px;
-  background-color: #e7e7e7
+  background-color: #e7e7e7;
 }
 
 #footer ul {
