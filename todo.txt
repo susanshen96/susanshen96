@@ -1,0 +1,18 @@
+PENDING EDITS/SUGGESTIONS: 
+
+MENU
+1. Blue bar - making it only exists when the mouse is hoving over? 
+2. Color change - black --> gray transition okay? 
+3. LOGIN BUTTON (and SIGNUP as well?)
+4. SEARCH BAR   
+
+CONVERTED FROM BYOB3/CONVERTED FROM SCRATCH  
+1. Each individual project should be displayed as follows:
+	a. Gray container 
+	b. Circular picture 
+	c. Title of project
+	d. Creator 
+2. Changing the blue button to blue outline/white inside 
+
+FOOTER
+1. Copyright - there's commented-out code in the HTML as a kinda outline (No CSS yet b/c not sure whether to make a <h6> or use something else)
