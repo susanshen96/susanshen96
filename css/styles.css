@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  width: 850px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,9 +148,9 @@ body {
   position: relative;
   min-width: 850px;
   width: 850px;
-  
   top: 400px;
   margin-bottom: 110px;
+  left: calc(50% - 425px);
 }
 
 #mainContent {
@@ -291,8 +291,6 @@ table#extensionmenu td.text a:hover{
   bottom: -350px;
   width: 100%;
   z-index: 0;
-  margin-right: auto;
-  margin-left: auto;
   height: 200px;
   background-color: #e7e7e7;
 }
@@ -332,6 +330,11 @@ table#extensionmenu td.text a:hover{
   font-size: 12px;
   text-align: left;
   -webkit-padding-start: 0;
+}
+
+.footermenu {
+  position: relative;
+  left: calc(50% - 425px);
 }
 
 h6 {
