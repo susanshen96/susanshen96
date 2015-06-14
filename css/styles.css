@@ -1,26 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400);
 
 html {
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0;
-	background: #FDFDFD;
-	height: 100%;
-	width: 100%;
-	overflow-x: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  background: #FDFDFD;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-	width: 850px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #menu {
   position: fixed;
   top: 0;
   left: 0;
-	width: 100%;
+  width: 100%;
   z-index: 1;
   -webkit-box-shadow: 0px 2px 2px #f5f5f5;
   margin: 0;
@@ -30,20 +30,20 @@ body {
 }
 
 #menuitems {
-	width: 850px;
-	top: 0;
-	margin-left: auto;
-	margin-right: auto;
+  width: 850px;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #menuitems ul {
-	position: relative;
-	list-style: none;
-	height: 45px;
-	top: 0;
-	margin-top: 0;
-	margin-bottom: -45px;
-	padding: 0;
+  position: relative;
+  list-style: none;
+  height: 45px;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: -45px;
+  padding: 0;
 }
 
 #menu ul:after {
@@ -55,8 +55,8 @@ body {
 }
 
 #menu li {
-	float: right;
-	top: 0;
+  float: right;
+  top: 0;
   display: inline-block;
   padding: 0;
   margin: 0;
@@ -125,33 +125,63 @@ body {
   display: none;
 }
 
+#login 
+{
+  border-color: #3366FF; 
+  background-color: #3366FF; 
+  position: relative;
+  float: right;
+  border-style: solid;
+  border-width: 2px; 
+  border-radius: 2px; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px; 
+  font-weight: 500; 
+  color: white;
+  text-align: center; 
+  vertical-align: center;
+  margin-top: 4px;
+  margin-right: 100px;
+  padding: 8px 16px 8px 16px;
+}
+
 #banner {
   position: absolute;
   top: 42px;
-	left: 0;
+  left: 0;
   width: 100%;
   z-index: 0;
-  height: 351px;
+  height: 385px;
+  overflow: hidden;
+}
+
+#banner-image {
+  width: 100%;
+  height: 485px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #wrapper {
   min-height: 100%;
   position: relative;
-	min-width: 850px;
-	width: 850px;
-	top: 370px;
-	margin-bottom: 110px;
+  min-width: 850px;
+  width: 850px;
+  top: 400px;
+  margin-bottom: 110px;
+  left: calc(50% - 425px);
 }
 
 #mainContent {
-	position: relative;
+  position: relative;
   min-height: 100%;
 }
 
 #mainContent: after {
   content: "";
   display: block;
-	min-height: 100%;
+  min-height: 100%;
 }
 
 h1 {
@@ -161,6 +191,8 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 34px;
+  margin-left: 50px;  
+  margin-right: 50px;
 }
 
 h2 {
@@ -170,6 +202,8 @@ h2 {
   font-weight: 100;
   font-size: 21px;
   position: relative;
+  margin-right: 50px; 
+  margin-left: 50px;
 }
 
 h2 a {
@@ -179,6 +213,7 @@ h2 a {
   font-weight: normal;
   font-size: 21px;
   position: relative;
+
 }
 
 h2 a:hover {
@@ -203,8 +238,8 @@ h4 {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-	-webkit-margin-before: 2.8em;
-	-webkit-margin-after: 0.8em;
+  -webkit-margin-before: 2.8em;
+  -webkit-margin-after: 0.8em;
 }
 
 h5 {
@@ -213,16 +248,16 @@ h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
 hr {
-	height: 2px;
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 25px;
+  height: 2px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 table#featured {
@@ -277,19 +312,17 @@ table#extensionmenu td.text a:hover{
 }
 
 #footer {
-	position: relative;
-	bottom: -325px;
+  position: relative;
+  bottom: -350px;
   width: 100%;
   z-index: 0;
-  margin-right: auto;
-	margin-left: auto;
   height: 200px;
-  background-color: #e7e7e7
+  background-color: #e7e7e7;
 }
 
 #footer ul {
-	text-align: left;
-	-webkit-padding-start: 100px;
+  text-align: left;
+  -webkit-padding-start: 100px;
 }
 
 #footer ul li {
@@ -311,17 +344,22 @@ table#extensionmenu td.text a:hover{
 }
 
 #footermenu ul a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 #footermenu ul {
-	color: #2196F3;
-	display: block;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	text-align: left;
-	-webkit-padding-start: 0;
+  color: #2196F3;
+  display: block;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  -webkit-padding-start: 0;
+}
+
+.footermenu {
+  position: relative;
+  left: calc(50% - 425px);
 }
 
 h6 {
