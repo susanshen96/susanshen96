@@ -58,30 +58,30 @@
 .jcarousel-control-prev,
 .jcarousel-control-next {
     position: absolute;
-    top: 35%;
-    margin-top: -15px;
-    width: 30px;
-    height: 30px;
+    top: calc(50% - 15px);
+    width: 50px;
+    height: 50px;
     text-align: center;
-    background: #2196F3;
-    color: #fff;
+    background: #fff;
+    color: rgb(206, 202, 202);
     text-decoration: none;
     text-shadow: 0 0 1px #000;
     font: 24px/27px Arial, sans-serif;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
+    border: solid rgb(206, 202, 202) 1px;
     -webkit-box-shadow: 0 0 4px #F0EFE7;
     -moz-box-shadow: 0 0 4px #F0EFE7;
     box-shadow: 0 0 4px #F0EFE7;
 }
 
 .jcarousel-control-prev {
-    left: -35px;
+    left: -65px;
 }
 
 .jcarousel-control-next {
-    right: -35px;
+    right: -55px;
 }
 
 .jcarousel-control-next:hover,
@@ -131,4 +131,19 @@
     -webkit-box-shadow: 0 0 2px #F0EFE7;
     -moz-box-shadow: 0 0 2px #F0EFE7;
     box-shadow: 0 0 2px #F0EFE7;
+}
+
+#prev-next-button {
+    position: relative;
+    margin-top: 10px;
+}
+
+#first-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+
+#second-wrapper {
+    position: relative;
+    margin-top: 80px;
 }
