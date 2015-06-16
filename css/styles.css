@@ -141,11 +141,10 @@ body {
   text-align: center; 
   vertical-align: center;
   margin-top: 4px;
-  margin-right: 100px;
+  margin-right: -100px; 
   padding: 8px 16px 8px 16px;
 }
 
-/* not showing up for some reason? 
 .container-1{
   width: 300px;
   vertical-align: middle;
@@ -162,7 +161,7 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-*/
+
 
 #banner {
   position: absolute;
