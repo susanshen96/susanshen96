@@ -137,3 +137,13 @@
     position: relative;
     margin-top: 10px;
 }
+
+#first-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+
+#second-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
