@@ -148,22 +148,67 @@ body {
 }
 
 .container-1{
-  width: 300px;
+  width: 60px;
   vertical-align: middle;
   white-space: nowrap;
   position: relative;
   margin-top: 10px; 
-  float: left;
-  border: gray;
-  border-radius: 10px; 
+  float: left; 
   padding-left: 45px;
 }  
 
 .container-1 input#search {
+  top: -4px;
+  right: 30px;
+  height: 30px;
+  font-size: 10pt;
+  float: left;
+  padding-left: 12px;
+  padding-right: 35px;
+  border-radius: 3px;
+  border-width: thin; 
+  border-color: #BDBDBD;
+  position: relative;
+  background-image: url("http://png-4.findicons.com/files/icons/1389/g5_system/32/toolbar_find.png");
+  background-repeat: no-repeat;
+  background-position: 190px;
+  background-size: 20px; 
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
 
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+   font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   font-size: 14px;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   font-size: 14px;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   font-size: 14px;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   font-size: 14px;  
+} 
 
 #banner {
   position: absolute;
