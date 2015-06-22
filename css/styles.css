@@ -144,6 +144,7 @@ body {
   margin-top: 4px;
   margin-right: -100px; 
   padding: 8px 16px 8px 16px;
+  cursor: pointer;
 }
 
 .container-1{
