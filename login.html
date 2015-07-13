@@ -1,35 +1,39 @@
 <!doctype html>
 
-<html lang="en"; style="overflow-y: hidden">
+<html lang="en">
 <head>
   <meta charset="utf-8">
 
   <title>SNAP! (Build Your Own Blocks)</title>
-  <meta name="description" content="SNAP! Extensions">
+  <meta name="description" content="SNAP! (Build your Own Blocks)">
   <meta name="author" content="Kyle Hotchkiss">
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="shortcut icon" href="images/Alonzo-favicon.ico">
-  <script type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/carousel.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="js/jcarousel.js"></script>
 </head>
 
 <body>
   <div id="menu">
     <div id="menuitems">
       <ul style="width: 734px; float: right">
+        <li class="active"><a href="login.html">Log In | Sign Up</a></li>
         <li><a href="https://snap.berkeley.edu/run" target="_blank">Run</a></li>
-        <li class="active"><a href="extensions.html">Login | Sign Up</a></li>
         <li><a href="about.html">About Snap!</a></li>
       </ul>
       <ul style="width: 116px">
-        <li style="float: left; height: 42px; width: 116px"><a class ='logo' href="index.html" style="top: 0px; height: 16px; width: 66px"><img src="images/snaplogo.png" alt="Snap!" style="margin-top: -10px; height: 35px; width: auto;"></a></li>
+        <li class="active" style="float: left; height: 42px; width: 116px"><a class ='logo' href="index.html" style="top: 0px; height: 16px; width: 66px"><img src="images/snaplogo.png" alt="Snap!" style="margin-top: -10px; height: 35px; width: auto;"></a></li>
       </ul>
 <div class="box">
   <div class="container-1">
+    <span class="icon"> <i class="fa fa-search"></i></span>
       <input type="search" id="search" placeholder="Search" />
   </div>
 </div>
-    <div id="login" onClick="document.location='login.html'">Log in</div>
   </div>
 </div>
 <!-- <div id="signup-card">
