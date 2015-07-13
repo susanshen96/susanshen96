@@ -18,7 +18,7 @@
     <div id="menuitems">
       <ul style="width: 734px; float: right">
         <li><a href="https://snap.berkeley.edu/run" target="_blank">Run</a></li>
-        <li><a href="extensions.html">Extensions</a></li>
+        <li class="active"><a href="extensions.html">Login | Sign Up</a></li>
         <li><a href="about.html">About Snap!</a></li>
       </ul>
       <ul style="width: 116px">
@@ -32,5 +32,27 @@
     <div id="login" onClick="document.location='login.html'">Log in</div>
   </div>
 </div>
+<!-- <div id="signup-card">
+  <h1>Sign-up</h1><br>
+    <form>
+    <input type="text" id="email" placeholder="Enter your email">
+    <input type="username" id="new-user" placeholder="Enter a username">
+    <input type="password" id="new-password" placeholder="Enter a password">
+    <input type="submit" id="signup" class="signup signup-submit" value="Sign up">
+  </form>
+</div> -->
+<div id="login-card">
+  <h1>Log In</h1><br>
+  <form>
+    <input type="text" id="user" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <input type="submit" id="login" class="login login-submit" value="Log in">
+  </form> 
+
+  <div class="login-help">
+    <a href="password_recovery.html">Forgot my password</a>
+  </div>
+</div>
+
 </body>
 </html>
