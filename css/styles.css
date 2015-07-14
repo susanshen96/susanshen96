@@ -126,18 +126,19 @@ body {
   display: none;
 }
 
-#login 
+#tryitnow 
 {
   background-color: #3366FF; 
-  position: absolute; 
+  position: relative; 
   border-radius: 2px; 
   font-family: 'Roboto', sans-serif;
   font-size: 20px; 
   font-weight: 500; 
   color: white;
   text-align: center; 
-  margin-top: 188px;
-  margin-left: 933px; 
+  top: 256px;
+  width: 113px;
+  left: 550px; 
   padding: 8px 16px 8px 16px;
   cursor: pointer;
 }
