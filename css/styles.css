@@ -218,7 +218,7 @@ body {
   z-index: 0;
   height: 385px;
   overflow: hidden;
-background: blue;
+  background: black;
 }
 
 
@@ -235,8 +235,8 @@ background: blue;
    top: 0;
    left: 0;
    width: 100%;
-   height: 100%;
-   background-color: #000000;
+   height: 100%
+   background-color: black;
    opacity: 0.6
 }
 
