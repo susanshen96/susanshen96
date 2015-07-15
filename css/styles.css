@@ -136,9 +136,9 @@ body {
   font-weight: 500; 
   color: white;
   text-align: center; 
-  top: 256px;
+  top: 244px;
   width: 113px;
-  left: 550px; 
+  left: 45%; 
   padding: 8px 16px 8px 16px;
   cursor: pointer;
 }
@@ -288,7 +288,6 @@ h2 a {
   font-weight: normal;
   font-size: 21px;
   position: relative;
-
 }
 
 h3 {
