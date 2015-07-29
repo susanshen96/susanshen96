@@ -132,14 +132,14 @@ body {
   position: absolute; 
   border-radius: 2px; 
   font-family: 'Roboto', sans-serif;
-  font-size: 20px; 
+  font-size: 23px; 
   font-weight: 500; 
   color: white;
   text-align: center; 
-  top: 244px;
-  width: 113px;
-  left: 45%; 
-  padding: 8px 16px 8px 16px;
+  top: 288px;
+  width: 127px;
+  left: 45.5%; 
+  padding: 11px 22px 11px 22px;
   cursor: pointer;
 }
 
