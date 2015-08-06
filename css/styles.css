@@ -331,6 +331,17 @@ h5 {
   text-transform: uppercase;
 }
 
+h6 { 
+  color: #000000;
+  text-decoration: none;
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  font-size: 7px;
+  position: relative;
+  left: calc(50% - 500px);
+  width: 1000px;
+}
+
 hr {
   height: 2px;
   width: 100%;
